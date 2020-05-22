@@ -1,0 +1,89 @@
+/*
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 4
+    Filename: speedreader.css
+    Description: The css file for the speedreader.html
+*/
+
+body {
+    background-color: #EAF6F6;
+    font-family: Garamond, serif;
+    font-size: 12pt;
+}
+h1{
+    text-align: center;
+}
+
+#upperBox{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 100px;
+    border: 2px solid #8EBEBE;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.medium, .initialSize {
+    font-size: 36pt;
+}
+
+.big {
+    font-size: 48pt;
+}
+
+.bigger {
+    font-size: 60pt;
+}
+
+#Controls, #input{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 13px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #8EBEBE;
+    width: 100%;
+    padding: 2px;
+}
+
+fieldset {
+    border: 0px;
+    display: inline;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textCOntent {
+    border: 1px solid gray;
+    background-color: #FFFFFF;
+}
+
+button{
+    background-color: white;
+    border: 1px solid gray;
+    width: 70px;
+}
+
+button:disabled{
+    background-color: lightgray;
+}
+
+#validators {
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+}
+
+#validators img{
+    width: 70px;
+}
